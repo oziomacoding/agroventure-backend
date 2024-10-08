@@ -41,7 +41,7 @@ To run the application, you need to generate a unique `SECRET_KEY`. Here is a wa
    If you have Django installed, run the following command in your terminal:
    ```bash
    python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
-
+   ```
    This command will output a randomly generated secret key that you can use.
 2. Create a .env file in the root directory and add the following variables:
    ```bash
