@@ -41,10 +41,9 @@ To run the application, you need to generate a unique `SECRET_KEY`. Here is a wa
 
 ## Running the Application
 
-1. Create a .env file in the root directory and add the following variables:
-2. Run migrations:
+1. Run migrations:
    python manage.py migrate
-3. Start the Django server:
+2. Start the Django server:
    python manage.py runserver
 
 
