@@ -26,6 +26,7 @@ An application built with Django RESTful APIs.
   ```bash
   python -m venv env
   env\Scripts\activate
+  ```
 
 3. Install dependencies:
    ```bash
