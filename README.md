@@ -18,9 +18,15 @@ An application built with Django RESTful APIs.
    git clone https://github.com/oziomacoding/agroventure-backend.git
    cd agroventure-backend
 2. Set up a virtual environment:
+   ```bash
    python -m venv env
-  source env/bin/activate  # On Windows use `env\Scripts\activate`
-3. Install dependencies:
+  source env/bin/activate  
+  # On Windows use 
+  ```bash
+  python -m venv env
+  env\Scripts\activate
+4. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 ## Configuration
@@ -35,6 +41,7 @@ To run the application, you need to generate a unique `SECRET_KEY`. Here is a wa
 
    This command will output a randomly generated secret key that you can use.
 2. Create a .env file in the root directory and add the following variables:
+   ```bash
    SECRET_KEY='your-generated-secret-key'  # Replace with your actual secret key
    DEBUG=True
    ALLOWED_HOSTS=localhost
@@ -42,8 +49,10 @@ To run the application, you need to generate a unique `SECRET_KEY`. Here is a wa
 ## Running the Application
 
 1. Run migrations:
+   ```bash
    python manage.py migrate
 2. Start the Django server:
+   ```bash
    python manage.py runserver
 
 
