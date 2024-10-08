@@ -20,12 +20,14 @@ An application built with Django RESTful APIs.
 2. Set up a virtual environment:
    ```bash
    python -m venv env
-  source env/bin/activate  
-  # On Windows use 
+   source env/bin/activate 
+    
+  **On Windows use** 
   ```bash
   python -m venv env
   env\Scripts\activate
-4. Install dependencies:
+
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
